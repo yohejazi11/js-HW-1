@@ -18,7 +18,7 @@ for (let i = title.length - 1; i >= 0; i--) {
 }
 console.log(UDtitle);
 
-console.log("   q:2 : solved")
+console.log("   q:2 : wrong answer")
 
 /*------------------------Q: 2#------------------------*/
 let one = 10, two = 20, three = 30;
@@ -33,8 +33,14 @@ if (one > two) {
         theBiggest = three;
     }
 }
+else{
+    theSmallest=one;
+}
 if (two > theBiggest) {
     theBiggest = two;
+    if(two>theSmallest){
+        
+    }
 }
 
 console.log("max is : "+theBiggest+", min is : "+theSmallest);
