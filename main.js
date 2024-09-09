@@ -1,4 +1,5 @@
 
+console.log("   q:1 : solved")
 
 /*------------------------Q: 1#------------------------*/
 var title = "Welcom to My JavaScript Lesson";
@@ -17,12 +18,15 @@ for (let i = title.length - 1; i >= 0; i--) {
 }
 console.log(UDtitle);
 
+console.log("   q:2 : solved")
 
 /*------------------------Q: 2#------------------------*/
 let one = 10, two = 20, three = 30;
 let theBiggest = 0;
 let theSmallest = 0;
 if (one > two) {
+    theBiggest=one;
+    theSmallest=two;
     if (one > three) {
         theBiggest = one;
     } else {
@@ -33,20 +37,14 @@ if (two > theBiggest) {
     theBiggest = two;
 }
 
-
-
-console.log();
-
-
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
+console.log("max is : "+theBiggest+", min is : "+theSmallest);
 
 
 
 
+
+
+console.log("   q:3 : solved")
 
 /*------------------------Q: 3#------------------------*/
 
@@ -77,24 +75,7 @@ else {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("   q:4 : solved")
 
 /*------------------------Q: 4#------------------------*/
 
@@ -112,6 +93,7 @@ else {
 
 }
 
+console.log("   q:5 : solved")
 
 /*------------------------Q: 5#------------------------*/
 let weight = 53;
@@ -143,6 +125,8 @@ else if (bmi > 35 && bmi <= 40) {
 else if (bmi > 40) {
     console.log("سمنة مفرطة جدا" + bmi + " : كتلة جسمك تساوي");
 }
+
+console.log("   q:6 : solved")
 
 /*------------------------Q: 6#------------------------*/
 
@@ -189,6 +173,7 @@ else if(shirtWidth==18 && shirtLength == 29  && shirtSleeve== 8.47){
 
 
 
+console.log("   q:7 : solved")
 
 /*------------------------Q: 7#------------------------*/
 
@@ -211,6 +196,7 @@ else{
 }
 
 
+console.log("   q:8 : solved")
 
 /*------------------------Q: 8#------------------------*/
 
@@ -237,6 +223,7 @@ console.log(selectedWords);
 
 
 
+console.log("   q:9 : unsolved")
 
 /*------------------------Q: 9#------------------------*/
 
@@ -264,7 +251,7 @@ console.log(selectedWords);
 
 
 
-
+console.log("   q:10 : solved")
 /*------------------------Q: 10#------------------------*/
 /*استبدال الكلمات في النص
 اكتب كود يستبدل كل ظهور لكلمة معينة في سلسلة نصية بكلمة أخرى. إذا لم تكن الكلمة موجودة في النص، اطبع "الكلمة غير موجودة في النص".
@@ -295,6 +282,7 @@ console.log(sliceText.join(" "));
 
 
 
+console.log("   q:11 : unsolved")
 
 /*------------------------Q: 11#------------------------*/
 /*حذف جميع الأرقام من النص
@@ -306,5 +294,5 @@ let newsentences="i am yousef omar h10ejazi i am fro6nt end dev5eloper, lov2e ca
 
 for(let i=0;i<newsentences.length;i++)
 {
-    
+
 }
