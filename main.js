@@ -29,6 +29,7 @@ if (one > two) {
     theSmallest=two;
     if (one > three) {
         theBiggest = one;
+        theSmallest=three;
     } else {
         theBiggest = three;
     }
@@ -39,7 +40,7 @@ else{
 if (two > theBiggest) {
     theBiggest = two;
     if(two>theSmallest){
-        
+
     }
 }
 
